@@ -1,0 +1,414 @@
+{
+  "communities": {
+    "0": [
+      "apiview",
+      "backend_apps_core_admin",
+      "backend_apps_core_admin_collegeinfoadmin",
+      "backend_apps_core_admin_contactmessageadmin",
+      "backend_apps_core_admin_facilityadmin",
+      "backend_apps_core_admin_leadershipmessageadmin",
+      "backend_apps_core_admin_py_register",
+      "backend_apps_core_admin_statisticadmin",
+      "backend_apps_core_admin_valuemissionadmin",
+      "backend_apps_core_models",
+      "backend_apps_core_models_collegeinfo",
+      "backend_apps_core_models_collegeinfo_str",
+      "backend_apps_core_models_contactmessage",
+      "backend_apps_core_models_contactmessage_str",
+      "backend_apps_core_models_facility",
+      "backend_apps_core_models_facility_str",
+      "backend_apps_core_models_leadershipmessage",
+      "backend_apps_core_models_leadershipmessage_str",
+      "backend_apps_core_models_meta",
+      "backend_apps_core_models_statistic",
+      "backend_apps_core_models_statistic_str",
+      "backend_apps_core_models_valuemission",
+      "backend_apps_core_models_valuemission_str",
+      "backend_apps_core_serializers",
+      "backend_apps_core_serializers_collegeinfoserializer",
+      "backend_apps_core_serializers_contactmessageserializer",
+      "backend_apps_core_serializers_facilityserializer",
+      "backend_apps_core_serializers_leadershipmessageserializer",
+      "backend_apps_core_serializers_meta",
+      "backend_apps_core_serializers_statisticserializer",
+      "backend_apps_core_serializers_valuemissionserializer",
+      "backend_apps_core_urls",
+      "backend_apps_core_views",
+      "backend_apps_core_views_collegeinfoview",
+      "backend_apps_core_views_collegeinfoview_get",
+      "backend_apps_core_views_contactmessagecreateview",
+      "backend_apps_core_views_contactmessagecreateview_create",
+      "backend_apps_core_views_facilitylistview",
+      "backend_apps_core_views_leadershipmessagelistview",
+      "backend_apps_core_views_statisticlistview",
+      "backend_apps_core_views_valuemissionlistview",
+      "rest_framework_views"
+    ],
+    "1": [
+      "backend_apps_departments_admin",
+      "backend_apps_departments_admin_departmentadmin",
+      "backend_apps_departments_admin_departmenthighlightadmin",
+      "backend_apps_departments_admin_departmenthighlightinline",
+      "backend_apps_departments_admin_facultyadmin",
+      "backend_apps_departments_admin_facultyinline",
+      "backend_apps_departments_admin_labadmin",
+      "backend_apps_departments_admin_labinline",
+      "backend_apps_departments_admin_py_register",
+      "backend_apps_departments_models",
+      "backend_apps_departments_models_department",
+      "backend_apps_departments_models_department_str",
+      "backend_apps_departments_models_departmenthighlight",
+      "backend_apps_departments_models_departmenthighlight_str",
+      "backend_apps_departments_models_faculty",
+      "backend_apps_departments_models_faculty_str",
+      "backend_apps_departments_models_lab",
+      "backend_apps_departments_models_lab_str",
+      "backend_apps_departments_models_meta",
+      "backend_apps_departments_serializers",
+      "backend_apps_departments_serializers_departmentdetailserializer",
+      "backend_apps_departments_serializers_departmenthighlightserializer",
+      "backend_apps_departments_serializers_departmentlistserializer",
+      "backend_apps_departments_serializers_facultyserializer",
+      "backend_apps_departments_serializers_labserializer",
+      "backend_apps_departments_serializers_meta",
+      "backend_apps_departments_urls",
+      "backend_apps_departments_views",
+      "backend_apps_departments_views_departmentdetailview",
+      "backend_apps_departments_views_departmentlistview",
+      "backend_apps_departments_views_facultylistview",
+      "backend_apps_departments_views_facultylistview_get_queryset",
+      "backend_apps_departments_views_lablistview",
+      "backend_apps_departments_views_lablistview_get_queryset"
+    ],
+    "2": [
+      "backend_apps_admissions_admin",
+      "backend_apps_admissions_admin_admissionenquiryadmin",
+      "backend_apps_admissions_admin_documentrequirementadmin",
+      "backend_apps_admissions_admin_eligibilitycriterionadmin",
+      "backend_apps_admissions_admin_py_register",
+      "backend_apps_admissions_models",
+      "backend_apps_admissions_models_admissionenquiry",
+      "backend_apps_admissions_models_admissionenquiry_str",
+      "backend_apps_admissions_models_documentrequirement",
+      "backend_apps_admissions_models_documentrequirement_str",
+      "backend_apps_admissions_models_eligibilitycriterion",
+      "backend_apps_admissions_models_eligibilitycriterion_str",
+      "backend_apps_admissions_models_meta",
+      "backend_apps_admissions_serializers",
+      "backend_apps_admissions_serializers_admissionenquiryserializer",
+      "backend_apps_admissions_serializers_documentrequirementserializer",
+      "backend_apps_admissions_serializers_eligibilitycriterionserializer",
+      "backend_apps_admissions_serializers_meta",
+      "backend_apps_admissions_urls",
+      "backend_apps_admissions_views",
+      "backend_apps_admissions_views_admissionenquirycreateview",
+      "backend_apps_admissions_views_admissionenquirycreateview_create",
+      "backend_apps_admissions_views_documentrequirementlistview",
+      "backend_apps_admissions_views_eligibilitycriterionlistview"
+    ],
+    "3": [
+      "backend_apps_placements_admin",
+      "backend_apps_placements_admin_crtmoduleadmin",
+      "backend_apps_placements_admin_placementstatisticadmin",
+      "backend_apps_placements_admin_py_register",
+      "backend_apps_placements_admin_recruitercompanyadmin",
+      "backend_apps_placements_models",
+      "backend_apps_placements_models_crtmodule",
+      "backend_apps_placements_models_crtmodule_str",
+      "backend_apps_placements_models_meta",
+      "backend_apps_placements_models_placementstatistic",
+      "backend_apps_placements_models_placementstatistic_str",
+      "backend_apps_placements_models_recruitercompany",
+      "backend_apps_placements_models_recruitercompany_str",
+      "backend_apps_placements_serializers",
+      "backend_apps_placements_serializers_crtmoduleserializer",
+      "backend_apps_placements_serializers_meta",
+      "backend_apps_placements_serializers_placementstatisticserializer",
+      "backend_apps_placements_serializers_placementstatisticserializer_get_placement_rate",
+      "backend_apps_placements_serializers_recruitercompanyserializer",
+      "backend_apps_placements_urls",
+      "backend_apps_placements_views",
+      "backend_apps_placements_views_crtmodulelistview",
+      "backend_apps_placements_views_placementstatisticlistview",
+      "backend_apps_placements_views_recruitercompanylistview"
+    ],
+    "4": [
+      "backend_apps_admissions_apps",
+      "backend_apps_admissions_apps_admissionsconfig",
+      "backend_apps_admissions_apps_py_appconfig",
+      "backend_apps_blog_apps",
+      "backend_apps_blog_apps_blogconfig",
+      "backend_apps_blog_apps_py_appconfig",
+      "backend_apps_core_apps",
+      "backend_apps_core_apps_coreconfig",
+      "backend_apps_core_apps_py_appconfig",
+      "backend_apps_departments_apps",
+      "backend_apps_departments_apps_departmentsconfig",
+      "backend_apps_departments_apps_py_appconfig",
+      "backend_apps_examination_apps",
+      "backend_apps_examination_apps_examinationconfig",
+      "backend_apps_examination_apps_py_appconfig",
+      "backend_apps_gallery_apps",
+      "backend_apps_gallery_apps_galleryconfig",
+      "backend_apps_gallery_apps_py_appconfig",
+      "backend_apps_placements_apps",
+      "backend_apps_placements_apps_placementsconfig",
+      "backend_apps_placements_apps_py_appconfig",
+      "django_apps"
+    ],
+    "5": [
+      "backend_apps_examination_admin",
+      "backend_apps_examination_admin_examnoticeadmin",
+      "backend_apps_examination_admin_officialdownloadadmin",
+      "backend_apps_examination_admin_py_register",
+      "backend_apps_examination_models",
+      "backend_apps_examination_models_examnotice",
+      "backend_apps_examination_models_examnotice_str",
+      "backend_apps_examination_models_meta",
+      "backend_apps_examination_models_officialdownload",
+      "backend_apps_examination_models_officialdownload_str",
+      "backend_apps_examination_serializers",
+      "backend_apps_examination_serializers_examnoticeserializer",
+      "backend_apps_examination_serializers_meta",
+      "backend_apps_examination_serializers_officialdownloadserializer",
+      "backend_apps_examination_urls",
+      "backend_apps_examination_views",
+      "backend_apps_examination_views_examnoticelistview",
+      "backend_apps_examination_views_examnoticelistview_get_queryset",
+      "backend_apps_examination_views_officialdownloadlistview",
+      "backend_apps_examination_views_officialdownloadlistview_get_queryset"
+    ],
+    "6": [
+      "backend_apps_gallery_admin",
+      "backend_apps_gallery_admin_gallerycategoryadmin",
+      "backend_apps_gallery_admin_gallerymediaadmin",
+      "backend_apps_gallery_admin_gallerymediainline",
+      "backend_apps_gallery_admin_py_register",
+      "backend_apps_gallery_models",
+      "backend_apps_gallery_models_gallerycategory",
+      "backend_apps_gallery_models_gallerycategory_str",
+      "backend_apps_gallery_models_gallerymedia",
+      "backend_apps_gallery_models_gallerymedia_str",
+      "backend_apps_gallery_models_meta",
+      "backend_apps_gallery_serializers",
+      "backend_apps_gallery_serializers_gallerycategoryserializer",
+      "backend_apps_gallery_serializers_gallerymediaserializer",
+      "backend_apps_gallery_serializers_meta",
+      "backend_apps_gallery_urls",
+      "backend_apps_gallery_views",
+      "backend_apps_gallery_views_gallerycategorylistview",
+      "backend_apps_gallery_views_gallerymedialistview",
+      "backend_apps_gallery_views_gallerymedialistview_get_queryset"
+    ],
+    "7": [
+      "backend_apps_blog_admin",
+      "backend_apps_blog_admin_newseventadmin",
+      "backend_apps_blog_admin_py_register",
+      "backend_apps_blog_models",
+      "backend_apps_blog_models_meta",
+      "backend_apps_blog_models_newsevent",
+      "backend_apps_blog_models_newsevent_str",
+      "backend_apps_blog_serializers",
+      "backend_apps_blog_serializers_meta",
+      "backend_apps_blog_serializers_newseventserializer",
+      "backend_apps_blog_urls",
+      "backend_apps_blog_views",
+      "backend_apps_blog_views_newseventdetailview",
+      "backend_apps_blog_views_newseventlistview",
+      "backend_apps_blog_views_newseventlistview_get_queryset",
+      "django_contrib",
+      "django_db",
+      "rest_framework"
+    ],
+    "8": [
+      "backend_bset_project_asgi",
+      "backend_bset_project_settings",
+      "backend_bset_project_wsgi",
+      "backend_manage",
+      "backend_manage_main",
+      "datetime",
+      "django_core_asgi",
+      "django_core_wsgi",
+      "dotenv",
+      "os",
+      "pathlib",
+      "sys"
+    ],
+    "9": [
+      "api_view",
+      "backend_bset_project_urls",
+      "backend_bset_project_urls_api_root",
+      "django_conf",
+      "django_conf_urls_static",
+      "django_urls",
+      "rest_framework_decorators",
+      "rest_framework_response",
+      "rest_framework_simplejwt_views"
+    ],
+    "10": [
+      "backend_apps_admissions_init"
+    ],
+    "11": [
+      "backend_apps_blog_init"
+    ],
+    "12": [
+      "backend_apps_core_init"
+    ],
+    "13": [
+      "backend_apps_departments_init"
+    ],
+    "14": [
+      "backend_apps_examination_init"
+    ],
+    "15": [
+      "backend_apps_gallery_init"
+    ],
+    "16": [
+      "backend_apps_init"
+    ],
+    "17": [
+      "backend_apps_placements_init"
+    ],
+    "18": [
+      "backend_apps_testimonials_init"
+    ],
+    "19": [
+      "backend_bset_project_init"
+    ]
+  },
+  "cohesion": {
+    "0": 0.12311265969802555,
+    "1": 0.1408199643493761,
+    "2": 0.1956521739130435,
+    "3": 0.1956521739130435,
+    "4": 0.09090909090909091,
+    "5": 0.20526315789473684,
+    "6": 0.21052631578947367,
+    "7": 0.19607843137254902,
+    "8": 0.16666666666666666,
+    "9": 0.2222222222222222,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0
+  },
+  "gods": [
+    {
+      "id": "backend_apps_departments_models_department",
+      "label": "Department",
+      "degree": 10
+    },
+    {
+      "id": "backend_apps_blog_models_newsevent",
+      "label": "NewsEvent",
+      "degree": 9
+    },
+    {
+      "id": "backend_apps_departments_models_lab",
+      "label": "Lab",
+      "degree": 9
+    },
+    {
+      "id": "backend_apps_departments_models_faculty",
+      "label": "Faculty",
+      "degree": 9
+    },
+    {
+      "id": "backend_apps_gallery_models_gallerymedia",
+      "label": "GalleryMedia",
+      "degree": 9
+    },
+    {
+      "id": "backend_apps_admissions_models_admissionenquiry",
+      "label": "AdmissionEnquiry",
+      "degree": 8
+    },
+    {
+      "id": "backend_apps_admissions_models_eligibilitycriterion",
+      "label": "EligibilityCriterion",
+      "degree": 8
+    },
+    {
+      "id": "backend_apps_admissions_models_documentrequirement",
+      "label": "DocumentRequirement",
+      "degree": 8
+    },
+    {
+      "id": "backend_apps_core_models_collegeinfo",
+      "label": "CollegeInfo",
+      "degree": 8
+    },
+    {
+      "id": "backend_apps_core_models_statistic",
+      "label": "Statistic",
+      "degree": 8
+    }
+  ],
+  "surprises": [
+    {
+      "source": "LabInline",
+      "target": "Lab",
+      "source_files": [
+        "backend/apps/departments/admin.py",
+        "backend/apps/departments/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `LabInline` unexpectedly reaches hub `Lab`"
+    },
+    {
+      "source": "FacultyInline",
+      "target": "Faculty",
+      "source_files": [
+        "backend/apps/departments/admin.py",
+        "backend/apps/departments/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `FacultyInline` unexpectedly reaches hub `Faculty`"
+    },
+    {
+      "source": "DepartmentHighlightInline",
+      "target": "DepartmentHighlight",
+      "source_files": [
+        "backend/apps/departments/admin.py",
+        "backend/apps/departments/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `DepartmentHighlightInline` unexpectedly reaches hub `DepartmentHighlight`"
+    },
+    {
+      "source": "GalleryMediaInline",
+      "target": "GalleryMedia",
+      "source_files": [
+        "backend/apps/gallery/admin.py",
+        "backend/apps/gallery/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `GalleryMediaInline` unexpectedly reaches hub `GalleryMedia`"
+    },
+    {
+      "source": "AdmissionEnquirySerializer",
+      "target": "AdmissionEnquiry",
+      "source_files": [
+        "backend/apps/admissions/serializers.py",
+        "backend/apps/admissions/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
