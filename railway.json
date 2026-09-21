@@ -1,0 +1,59 @@
+{
+  "services": [
+    {
+      "name": "backend",
+      "rootDirectory": "backend",
+      "build": {
+        "dockerfilePath": "Dockerfile"
+      },
+      "deploy": {
+        "restartPolicy": {
+          "type": "on-start"
+        }
+      },
+      "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "backend:8000"
+        }
+      ],
+      "envVars": {
+        "DEBUG": "false",
+        "SECRET_KEY": "{{backendsuper-secret-key-2026}}",
+        "DB_NAME": "bset_db",
+        "DB_USER": "bset_user",
+        "DB_PASSWORD": "{{backendsecure-password-2026}}",
+        "DB_HOST": "postgres",
+        "DB_PORT": "5432",
+        "CORS_ALLOWED_ORIGINS": "https://yoursite.up.railway.app"
+      }
+    },
+    {
+      "name": "frontend",
+      "rootDirectory": "frontend",
+      "build": {
+        "dockerfilePath": "Dockerfile"
+      },
+      "deploy": {
+        "restartPolicy": {
+          "type": "on-start"
+        }
+      },
+      "routes": [
+        {
+          "src": "/",
+          "dest": "frontend:3000"
+        }
+      ],
+      "envVars": {
+        "NEXT_PUBLIC_API_URL": "https://your-backend-service.up.railway.app",
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "postgres",
+      "rootDirectory": "backend",
+      "database": "postgresql"
+    }
+  ]
+}
