@@ -1,7 +1,7 @@
 "use client"
 
 import axios, { AxiosInstance } from "axios"
-import scraped_data from "../../bset_scraped_data.json"
+import scraped_data from "../bset_scraped_data.json"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api"
 
