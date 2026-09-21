@@ -34,6 +34,9 @@ dist/
 downloads/
 eggs/
 .eggs/
+# lib/ is ignored for Python but we need frontend/lib/
+!frontend/lib/
+!frontend/lib64/
 lib/
 lib64/
 parts/
